@@ -1,7 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Site under progress</h1>
-<p>Come soon</p>
-</body>
-</html>
