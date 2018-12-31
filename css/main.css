@@ -61,13 +61,17 @@ a:hover {
     color:yellow;
 }
 
-.btn-linkedin:link, .btn-linkedin:visited {
-	  color: green;
-	}
+.btn-linkedin:link {
+	  color: yellow;
+}
 
 .btn-linkedin:active, .btn-linkedin:hover {
 	  background: black;
 	  color: yellow;
+}
+
+.btn-linkedin:visited {
+	  color: green;
 }
 
 /* GITHUB BUTTONS */
@@ -76,9 +80,13 @@ a:hover {
     color:yellow;
 }
 
+.btn-github:link{
+	  color: yellow;
+}
+
 .btn-github:link, .btn-linkedin:visited {
 	  color: green;
-	}
+}
 
 .btn-github:active, .btn-linkedin:hover {
 	  background: black;
@@ -92,9 +100,13 @@ a:hover {
     padding-left: 5px;
 }
 
+.btn-resume:link {
+	  color: yellow;
+}
+
 .btn-resume:link, .btn-linkedin:visited {
 	  color: green;
-	}
+}
 
 .btn-resume:active, .btn-linkedin:hover {
 	  background: black;
