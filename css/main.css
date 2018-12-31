@@ -1,0 +1,102 @@
+.clr {
+  clear:both;
+}
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5 h6 {
+  font-family: 'Major Mono Display', monospace;
+  text-transform: lowercase;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:active {
+  color:yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.header {
+  border: 3px solid black;
+  background: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+.welcome {
+  background-color: black;
+  border-top: 3px solid white;
+  color: white;
+  padding: 2%;
+}
+
+.externalLinks {
+  background-color: black;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  color: white;
+  padding: 2%;
+}
+
+/* LINKEDIN BUTTONS */
+.btn-linkedin {
+	  font-size:48px;
+    color:yellow;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited {
+	  color: green;
+	}
+
+.btn-linkedin:active, .btn-linkedin:hover {
+	  background: black;
+	  color: yellow;
+}
+
+/* GITHUB BUTTONS */
+.btn-github {
+	  font-size:48px;
+    color:yellow;
+}
+
+.btn-github:link, .btn-linkedin:visited {
+	  color: green;
+	}
+
+.btn-github:active, .btn-linkedin:hover {
+	  background: black;
+	  color: yellow;
+}
+
+/* RESUME BUTTONS */
+.btn-resume {
+	  font-size:48px;
+    color:yellow;
+    padding-left: 5px;
+}
+
+.btn-resume:link, .btn-linkedin:visited {
+	  color: green;
+	}
+
+.btn-resume:active, .btn-linkedin:hover {
+	  background: black;
+	  color: yellow;
+}
