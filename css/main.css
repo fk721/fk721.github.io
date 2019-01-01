@@ -33,9 +33,15 @@ a:active, a:hover {
 
 .welcome {
   background-color: black;
+  border-top-width: 50%;
   border-top: 3px solid white;
   color: white;
   padding: 2%;
+}
+
+.welcome p {
+  width: 95%;
+  line-height: 1.5em;
 }
 
 .externalLinks {
@@ -46,7 +52,7 @@ a:active, a:hover {
   padding: 2%;
 }
 
-.btn-linkedin, .btn-github, .btn-resume {
+.btn-linkedin, .btn-github, .btn-resume, .btn-email {
   font-size: 30px;
 }
 
