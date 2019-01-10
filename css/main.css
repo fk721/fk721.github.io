@@ -9,10 +9,11 @@ body {
 h1, h2, h3, h4, h5 h6 {
   font-family: 'Major Mono Display', monospace;
   text-transform: lowercase;
+  color: white;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a, a:visited {
@@ -31,17 +32,15 @@ a:active, a:hover {
   text-align: center;
 }
 
-.welcome {
+.section {
   background-color: black;
   border-top-width: 50%;
   border-top: 3px solid white;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   padding: 2%;
-}
-
-.welcome p {
   width: 95%;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .externalLinks {
@@ -58,4 +57,18 @@ a:active, a:hover {
 
 .btn-resume {
   padding-left: 5px;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-to-home {
+  border-top: 3px solid white;
+  text-align: center;
 }
