@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5 h6 {
   color: white;
 }
 
+h1:hover, h2:hover, h3:hover {
+  font-family: 'Major Mono Display', monospace;
+  text-transform: lowercase;
+  color: yellow;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
 }
