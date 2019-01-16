@@ -2,7 +2,7 @@ body {
   font-family: "Nunito", sans-serif;
   color: white;
   background: black;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 2em;
   font-weight: 400;
 }
@@ -52,6 +52,12 @@ a:active, a:hover {
 
 hr {
   border-top: 1px solid white;
+}
+
+#bottom-nav {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
 }
 
 
