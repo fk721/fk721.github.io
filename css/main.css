@@ -1,81 +1,48 @@
-.clr {
-  clear:both;
+html {
+  height: 100%;
 }
 
 body {
-  background-color: black;
-}
-
-h1, h2, h3, h4, h5 h6 {
-  font-family: 'Major Mono Display', monospace;
-  text-transform: lowercase;
+  background: url("../images/skyline.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Nunito", sans-serif;
   color: white;
 }
 
-h1:hover, h2:hover, h3:hover {
-  font-family: 'Major Mono Display', monospace;
-  text-transform: lowercase;
-  color: yellow;
+#main-navbar {
+  color: #6E0C0C;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-
-a, a:visited {
-  text-decoration: none;
+#main-navbar .nav-link {
   color: white;
 }
 
-a:active, a:hover {
-  color:yellow;
+#main-navbar .nav-link:hover {
+  color: #6E0C0C;;
 }
 
-.header {
-  border: 3px solid black;
-  color: white;
-  padding: 2%;
+#main-navbar .navbar-brand {
+  color: #6E0C0C;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#content {
+  padding-top: 25%;
   text-align: center;
+  text-shadow: 0px 4px 13px black;
 }
 
-.section {
-  background-color: black;
-  border-top-width: 50%;
-  border-top: 3px solid white;
+hr {
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  padding: 2%;
-  width: 95%;
-  line-height: 2em;
 }
 
-.externalLinks {
-  background-color: black;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  color: white;
-  padding: 2%;
-}
-
-.btn-linkedin, .btn-github, .btn-resume, .btn-email {
-  font-size: 30px;
-}
-
-.btn-resume {
-  padding-left: 5px;
-}
-
-
-img {
-  max-width: 100%;
-  max-height: 100vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.back-to-home {
-  font-family: 'Montserrat', sans-serif;
-  border-top: 3px solid white;
-  text-align: center;
+.btn {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  background: lightgrey;
 }

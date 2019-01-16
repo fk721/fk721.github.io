@@ -1,76 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset = "utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Fahmid Kamal </title>
-    <link rel = "stylesheet" type = "text/css" href = "../../css/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="../../css/racecar.ico">
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+      <link rel = "stylesheet" type = "text/css" href = "../../css/side.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Nunito:100,400,700" rel="stylesheet">
+      <link rel="icon" href="../../css/racecar.ico">
+      <title>mixr</title>
   </head>
   <body>
-    <div class = "header">
-      <h1>mixr</h1>
+    <nav id="main-navbar" class="navbar navbar-dark navbar-expand-md py-0">
+      <div class="container">
+        <a href="../../index.html" class="navbar-brand">kamal</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="../about-me.html" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="../projects.html" class="nav-link">Projects</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    <div class = "section">
-      <p>
+    </nav>
+    <div class = "container">
+      <div id="goal">
+        <h1>mixr</h1>
+        <hr>
         <h2>Goal</h2>
-        I have recently completed a semester of object oriented programming in C++.
-        I was determined to take what I learned and create something applicable
-        that I could use in my everyday life.
-        <br />
-        I was <i>dissatisfied</i> with the music players that Windows had to offer,
-        and found that ITunes always ran so slow.
-        So, I decided to create my own simple music player using C++ and
-        Qt for the graphical user interface.
-        <br />
-        I didn't aim to create anything groundbreaking or innovative. Just something that would
-        play my music that I'd import from a library, shuffle files, and other basic music player things
-        such as play the next/previous song, pause/play and mute/unmute audio.
+        <p>
+          I have recently completed a semester of object oriented programming in C++.
+          I was determined to take what I learned and create something applicable
+          that I could use in my everyday life.
+        </p>
+        <p>
+          I was <em>dissatisfied</em> with the music players that Windows had to offer,
+          and found that ITunes always ran so slow.
+          So, I decided to create my own simple music player using C++ along with
+          Qt for the graphical user interface.
+        </p>
+        <p>
+          I didn't aim to create anything groundbreaking or innovative. Just something that would
+          support automatic playback, shuffle, and other basic functionality
+          such as play the next/previous song, pause/play and mute/unmute audio.
+          <hr>
         </p>
       </div>
-      <div class = "section">
+      <div id="mechanism">
         <h2>Mechanism</h2>
         <p>
-          Simply, there are three classes: a <i>song</i> class, a <i>playlist</i>
-          class, which held a collection of <i>song</i> objects, and a <i>player</i> class,
+          Simply, there are three classes: a <em>song</em> class, a <em>playlist</em>
+          class, which held a collection of <em>song</em> objects, and a <em>player</em> class,
           which facilitated the interaction between a playlist object and the GUI. The song class
           only had two fields: the file path of the song along with the name of the song, which
           is the filename of the song. In the future, I hope to find a way to extract metadata
           from each song to get other attributes, such as the artist and album. But for now, this will
-          suffice for my purposes.
+          suffice.
         </p>
+        <hr>
         </div>
-      <div class = "section">
-        <h2>Final Result</h2>
-        <p>
-        Styling the Qt GUI was identical to styling using CSS. I decided to
-        create a dark theme. The final result of this project after importing <i>LUV Is Rage 2</i>
-         looked something like this:
-        </p>
-        <img src="mixr.png" alt="mixr">
-        <br />
-        </div>
-      <div class = clr> </div>
-      <div class = "section">
-        <h2> Last Words </h2>
-        <p>
-           The code for this project can be viewed on my GitHub repository
-           <a href = "https://github.com/south-west/mixr" title = "mixr GitHub"
-           target = "_blank"> <b><i>here</i></b></a>.
-           <br />
-           I will most likely come visit this project in the future. This is
-           a very simple music player, and lacks a lot of the functionality of a
-           modern music player. Nevertheless, this was a fun project that utilized
-           several object oriented design principles that I learned and achieved several goals
-           that I had.
+        <div id="final">
+          <h2>Final Result</h2>
+          <p>
+          Styling the Qt GUI was identical to styling using CSS. I decided to
+          create a dark theme. The final result of this project after importing <i>LUV Is Rage 2</i>
+          looked something like this:
           </p>
-        </div>
-      <div class = "back-to-home">
-        <p>
-          <a href = "../../index.html" title = "home"> <b>HOME</b></a>
+          <img class="rounded mx-auto d-block" src="mixr.png" alt="mixr">
           </p>
+          <hr>
         </div>
+        <div id="last-words">
+          <h2>Last Words</h2>
+          <p> The code for this project can be viewed on my GitHub repository
+            <a href="https://github.com/south-west/mixr" target="_blank">here</a>.
+          I will most likely come visit this project in the future.
+          This is a very simple music player, and lacks a lot of the functionality of a modern music player.
+          Nevertheless, I had a lot of fun creating something built in C++ that I could use on a
+          daily basis. </p>
+          <hr>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
     </body>
 </html>
