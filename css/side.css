@@ -5,6 +5,7 @@ body {
   font-size: 1.1rem;
   line-height: 2em;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 #main-navbar {
