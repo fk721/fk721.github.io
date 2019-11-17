@@ -27,20 +27,20 @@ html {
 /* END PARTICLES JS DEFINTIONS */
 
 body {
-  background: #18121e;
-  color: #dcd0c0;
-  font-family: 'Inconsolata', monospace;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Alata', sans-serif;
   font-size: 20px;
   overflow-y: hidden;
 }
 
 a:active, a:hover {
-  color: #eac67a;
+  color: #00000070;
   text-decoration: none;
 }
 
 a {
-  color: #984b43;
+  color: #000000;
 }
 
 #landing {
