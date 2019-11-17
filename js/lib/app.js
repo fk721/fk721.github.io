@@ -28,7 +28,7 @@ particlesJS('particles-js',
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#778899"
       },
       "polygon": {
         "nb_sides": 7
@@ -40,7 +40,7 @@ particlesJS('particles-js',
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0,
       "random": false,
       "anim": {
         "enable": false,
