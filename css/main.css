@@ -31,7 +31,7 @@ body {
   color: #000000;
   font-family: 'Alata', sans-serif;
   font-size: 20px;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 a:active, a:hover {
