@@ -1,8 +1,52 @@
-/* BEGIN PARTICLES JS DEFINTIONS */
-body,
-html {
-    height: 100%
-}
+/* FONTS */
+@charset "UTF-8";
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Bold-Web.woff2") format("woff2"), url("../fonts/StyreneB-Bold-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  -webkit-font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01';
+          font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01'; }
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-BoldItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-BoldItalic-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  -webkit-font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01';
+          font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01'; }
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Regular-Web.woff2") format("woff2"), url("../fonts/StyreneB-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01';
+          font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01'; }
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-RegularItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-RegularItalic-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  -webkit-font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01';
+          font-feature-settings: 'kern' on, 'liga' off, 'calt' off, 'ss01'; }
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smooth: antialiased; }
+
+::-moz-selection {
+  background: #030303;
+  color: #fff; }
+
+::selection {
+  background: #030303;
+  color: #fff; }
+
+::-moz-selection {
+  background: #030303;
+  color: #fff; }
+
+/* PARTICLES STUFF */
 
 #particles-js canvas {
     display: block;
@@ -16,22 +60,33 @@ html {
 }
 
 #particles-js {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0
+    padding-top: 2%;
 }
 
-/* END PARTICLES JS DEFINTIONS */
+/* END PARTICLES STUFF */
 
 body {
-  background: #ffffff;
-  color: #000000;
-  font-family: 'Alata', sans-serif;
+  background: #000;
+  color: #fff;
+  font-family: "Styrene", sans-serif;
+  -webkit-font-feature-settings: "kern" on, "liga" off, "calt" off, "ss01";
+  font-feature-settings: "kern" on, "liga" off, "calt" off, "ss01";
   font-size: 20px;
   /* overflow-y: hidden; */
+    -webkit-user-select: none;
+       -moz-user-select: none;
+         -o-user-select: none;
+        -ms-user-select: none;
+            user-select: none
+}
+
+#main-container {
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 a:active, a:hover {
@@ -40,18 +95,10 @@ a:active, a:hover {
 }
 
 a {
-  color: #000000;
+  color: #8197a0;
 }
 
-#landing {
-  padding-top: 7.5%;
-}
-
-#connect-links {
-  text-align: center;
-}
-
-#connect-links a{
+#connect-links a {
   font-size: 20px;
   transition: font-size 1s ease;
 }
@@ -60,22 +107,6 @@ a {
   font-size: 25px;
 }
 
-#connect-links {
-  padding-bottom: 20%;
-}
-
-hr {
-  -moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
-  border-style: solid none;
-  border-width: 1px 0;
-  margin: 18px 0;
-}
-
-i {
-  cursor: pointer;
+#nyc-skyline {
+  width: 100%
 }
